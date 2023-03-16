@@ -8,10 +8,8 @@ import '../src/pages/home.css';
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <div className="container">
-        <GlobalStyles />
-        <AppRoutes />
-      </div>
+      <GlobalStyles />
+      <AppRoutes />
     </ThemeProvider>
   );
 }

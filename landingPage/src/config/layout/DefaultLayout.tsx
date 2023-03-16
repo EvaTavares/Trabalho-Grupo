@@ -32,7 +32,7 @@ const DefaultLayout: React.FC<DefaultLayoutProps> = ({ component: Component }) =
           height: '100px',
           bottom: '0',
           position: 'fixed',
-          width: '100%',
+          width: '100vw',
           alignItems: 'center',
           fontWeight: 'bold'
         }}
